@@ -3,7 +3,9 @@
   <entry>
     <title>test1</title>
     <url>/2020/04/24/test1/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>nothing to say</p>
+<p>test over</p>
+]]></content>
   </entry>
   <entry>
     <title>hello-world</title>
