@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>赵殿文</title>
   
-  <subtitle>一个醉心于技术的男人</subtitle>
+  <subtitle>一醉心技术的男人</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-29T10:41:13.703Z</updated>
+  <updated>2020-04-24T07:49:16.265Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test1</title>
+    <link href="http://yoursite.com/2020/04/24/test1/"/>
+    <id>http://yoursite.com/2020/04/24/test1/</id>
+    <published>2020-04-24T07:49:16.000Z</published>
+    <updated>2020-04-24T07:49:16.265Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>hello-world</title>
