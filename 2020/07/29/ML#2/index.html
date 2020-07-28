@@ -50,18 +50,18 @@
   };
 </script>
 
-  <meta name="description" content="What is Machine LearningTwo definitions of Machine Learning are offered. Arthur Samuel described it as: “the field of study that gives computers the ability to learn without being explicitly programme">
+  <meta name="description" content="Model RepresentationRecall that in regression problems, we are taking input variables and trying to fit the output onto a continuous expected result function. Linear regression with one variable is al">
 <meta name="keywords" content="Machine_Learning_Notes">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ML#1 Introduction to Machine Learning">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2020&#x2F;07&#x2F;28&#x2F;ML#1&#x2F;index.html">
+<meta property="og:title" content="ML#2 Linear Regression with One Variable">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2020&#x2F;07&#x2F;29&#x2F;ML#2&#x2F;index.html">
 <meta property="og:site_name" content="赵殿文">
-<meta property="og:description" content="What is Machine LearningTwo definitions of Machine Learning are offered. Arthur Samuel described it as: “the field of study that gives computers the ability to learn without being explicitly programme">
+<meta property="og:description" content="Model RepresentationRecall that in regression problems, we are taking input variables and trying to fit the output onto a continuous expected result function. Linear regression with one variable is al">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-07-28T14:30:14.803Z">
+<meta property="og:updated_time" content="2020-07-28T14:30:15.689Z">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/2020/07/28/ML#1/">
+<link rel="canonical" href="http://yoursite.com/2020/07/29/ML#2/">
 
 
 <script id="page-configurations">
@@ -75,7 +75,7 @@
   };
 </script>
 
-  <title>ML#1 Introduction to Machine Learning | 赵殿文</title>
+  <title>ML#2 Linear Regression with One Variable | 赵殿文</title>
   
 
 
@@ -203,7 +203,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/28/ML#1/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/29/ML#2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -216,7 +216,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          ML#1 Introduction to Machine Learning
+          ML#2 Linear Regression with One Variable
         </h1>
 
         <div class="post-meta">
@@ -225,10 +225,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-07-28 21:19:16 / 修改时间：22:30:14" itemprop="dateCreated datePublished" datetime="2020-07-28T21:19:16+08:00">2020-07-28</time>
+              <time title="创建时间：2020-07-29 15:49:16" itemprop="dateCreated datePublished" datetime="2020-07-29T15:49:16+08:00">2020-07-29</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-07-28 22:30:15" itemprop="dateModified" datetime="2020-07-28T22:30:15+08:00">2020-07-28</time>
+              </span>
 
           
 
@@ -241,41 +247,46 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="What-is-Machine-Learning"><a href="#What-is-Machine-Learning" class="headerlink" title="What is Machine Learning"></a>What is Machine Learning</h2><p>Two definitions of Machine Learning are offered. Arthur Samuel described it as: “the field of study that gives computers the ability to learn without being explicitly programmed.” This is an older, informal definition.</p>
-<p>Tom Mitchell provides a more modern definition: “A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.”</p>
+        <h2 id="Model-Representation"><a href="#Model-Representation" class="headerlink" title="Model Representation"></a>Model Representation</h2><p>Recall that in regression problems, we are taking input variables and trying to fit the output onto a continuous expected result function.</p>
+<p>Linear regression with one variable is also known as “univariate linear regression.”</p>
+<p>Univariate linear regression is used when you want to predict a single output value y from a single input value x. We’re doing supervised learning here, so that means we already have an idea about what the input/output cause and effect should be.</p>
+<h2 id="The-Hypothesis-Function"><a href="#The-Hypothesis-Function" class="headerlink" title="The Hypothesis Function"></a>The Hypothesis Function</h2><p>Our hypothesis function has the general form:</p>
 <blockquote>
-<p><em>Example:</em> playing checkers.<br>E = the experience of playing many games of checkers<br>T = the task of playing checkers.<br>P = the probability that the program will win the next game.</p>
-</blockquote>
-<p>In general, any machine learning problem can be assigned to one of two broad classifications:</p>
+<script type="math/tex; mode=display">\hat{y}=h_θ(x)=θ_0+θ_1x</script></blockquote>
+<p>Note that this is like the equation of a straight line. We give to $h<em>\theta(x)$ values for $\theta_0$ and $\theta_1$ to get our estimated output $\hat{y}$. In other words, we are trying to create a function called $h</em>\theta$ that is trying to map our input data (the x’s) to our output data (the y’s).</p>
 <blockquote>
-<ul>
-<li>supervised learning, OR</li>
-<li>unsupervised learning.</li>
-</ul>
+<p><em>Example:</em><br>Suppose we have the following set of training data:</p>
 </blockquote>
-<h3 id="Supervised-Learning"><a href="#Supervised-Learning" class="headerlink" title="Supervised Learning"></a>Supervised Learning</h3><p>In supervised learning, we are given a data set and already know what our correct output should look like, having the idea that there is a relationship between the input and the output.</p>
-<p>Supervised learning problems are categorized into “regression” and “classification” problems. In a regression problem, we are trying to predict results within a continuous output, meaning that we are trying to map input variables to some continuous function. In a classification problem, we are instead trying to predict results in a discrete output. In other words, we are trying to map input variables into discrete categories. Here is a description on Math is Fun on Continuous and Discrete Data.</p>
-<blockquote>
-<p><em>Example 1:</em><br>Given data about the size of houses on the real estate market, try to predict their price. Price as a function of size is a continuous output, so this is a regression problem.</p>
-</blockquote>
-<p>We could turn this example into a classification problem by instead making our output about whether the house “sells for more or less than the asking price.” Here we are classifying the houses based on price into two discrete categories.</p>
-<blockquote>
-<p><em>Example 2:</em></p>
-<ul>
-<li>Regression:<br>Given a picture of Male/Female, We have to predict his/her age on the basis of given picture.</li>
-<li>Classification:<br>Given a picture of Male/Female, We have to predict Whether He/She is of High school, College, Graduate age. Another Example for Classification - Banks have to decide whether or not to give a loan to someone on the basis of his credit history.</li>
-</ul>
-</blockquote>
-<h3 id="Unsupervised-Learning"><a href="#Unsupervised-Learning" class="headerlink" title="Unsupervised Learning"></a>Unsupervised Learning</h3><p>Unsupervised learning, on the other hand, allows us to approach problems with little or no idea what our results should look like. We can derive structure from data where we don’t necessarily know the effect of the variables.</p>
-<p>We can derive this structure by clustering the data based on relationships among the variables in the data.</p>
-<p>With unsupervised learning there is no feedback based on the prediction results, i.e., there is no teacher to correct you.</p>
-<blockquote>
-<p><em>Example:</em></p>
-<ul>
-<li>Clustering:<br>Take a collection of 1000 essays written on the US Economy, and find a way to automatically group these essays into a small number that are somehow similar or related by different variables, such as word frequency, sentence length, page count, and so on.<br>&nbsp;</li>
-<li>Non-clustering:<br>The “Cocktail Party Algorithm”, which can find structure in messy data (such as the identification of individual voices and music from a mesh of sounds at a cocktail party <a href="https://en.wikipedia.org/wiki/Cocktail_party_effect" target="_blank" rel="noopener">reference#1</a>). Here is an answer on Quora to enhance your understanding: <a href="https://www.quora.com/What-is-the-difference-between-supervised-and-unsupervised-learning-algorithms?" target="_blank" rel="noopener">reference#2</a></li>
-</ul>
-</blockquote>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">input x</th>
+<th style="text-align:center">output y</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">0</td>
+<td style="text-align:center">4</td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">7</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">7</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center">8</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Now we can make a random guess about our $h<em>\theta$ function: $\theta_0=2$ and $\theta_1=2$. The hypothesis function becomes $h</em>\theta(x)=2+2x$.</p>
+<p>So for input of 1 to our hypothesis, y will be 4. This is off by 3. Note that we will be trying out various values of $\theta_0$ and $\theta_1$ to try to find values which provide the best possible “fit” or the most representative “straight line” through the data points mapped on the <em>x-y</em> plane.</p>
 
     </div>
 
@@ -292,17 +303,14 @@
 
           <div class="post-nav">
             <div class="post-nav-next post-nav-item">
-                <a href="/2020/04/24/0/" rel="next" title="Hello World">
-                  <i class="fa fa-chevron-left"></i> Hello World
+                <a href="/2020/07/28/ML#1/" rel="next" title="ML#1 Introduction to Machine Learning">
+                  <i class="fa fa-chevron-left"></i> ML#1 Introduction to Machine Learning
                 </a>
             </div>
 
             <span class="post-nav-divider"></span>
 
             <div class="post-nav-prev post-nav-item">
-                <a href="/2020/07/29/ML#2/" rel="prev" title="ML#2 Linear Regression with One Variable">
-                  ML#2 Linear Regression with One Variable <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
       </footer>
@@ -341,7 +349,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#What-is-Machine-Learning"><span class="nav-number">1.</span> <span class="nav-text">What is Machine Learning</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Supervised-Learning"><span class="nav-number">1.1.</span> <span class="nav-text">Supervised Learning</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Unsupervised-Learning"><span class="nav-number">1.2.</span> <span class="nav-text">Unsupervised Learning</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Model-Representation"><span class="nav-number">1.</span> <span class="nav-text">Model Representation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#The-Hypothesis-Function"><span class="nav-number">2.</span> <span class="nav-text">The Hypothesis Function</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
