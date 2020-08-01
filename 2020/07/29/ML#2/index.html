@@ -58,7 +58,7 @@
 <meta property="og:site_name" content="赵殿文">
 <meta property="og:description" content="Model RepresentationRecall that in regression problems, we are taking input variables and trying to fit the output onto a continuous expected result function. Linear regression with one variable is al">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-07-28T14:30:15.689Z">
+<meta property="og:updated_time" content="2020-07-30T16:35:06.381Z">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://yoursite.com/2020/07/29/ML#2/">
@@ -233,7 +233,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-07-28 22:30:15" itemprop="dateModified" datetime="2020-07-28T22:30:15+08:00">2020-07-28</time>
+                <time title="修改时间：2020-07-31 00:35:06" itemprop="dateModified" datetime="2020-07-31T00:35:06+08:00">2020-07-31</time>
               </span>
 
           
@@ -251,9 +251,8 @@
 <p>Linear regression with one variable is also known as “univariate linear regression.”</p>
 <p>Univariate linear regression is used when you want to predict a single output value y from a single input value x. We’re doing supervised learning here, so that means we already have an idea about what the input/output cause and effect should be.</p>
 <h2 id="The-Hypothesis-Function"><a href="#The-Hypothesis-Function" class="headerlink" title="The Hypothesis Function"></a>The Hypothesis Function</h2><p>Our hypothesis function has the general form:</p>
-<blockquote>
-<script type="math/tex; mode=display">\hat{y}=h_θ(x)=θ_0+θ_1x</script></blockquote>
-<p>Note that this is like the equation of a straight line. We give to $h<em>\theta(x)$ values for $\theta_0$ and $\theta_1$ to get our estimated output $\hat{y}$. In other words, we are trying to create a function called $h</em>\theta$ that is trying to map our input data (the x’s) to our output data (the y’s).</p>
+<script type="math/tex; mode=display">
+\hat{y}=h_θ(x)=θ_0+θ_1x</script><p>Note that this is like the equation of a straight line. We give to $h<em>\θ(x)$ values for $\θ_0$ and $\θ_1$ to get our estimated output $\hat{y}$. In other words, we are trying to create a function called $h</em>\θ$ that is trying to map our input data (the x’s) to our output data (the y’s).</p>
 <blockquote>
 <p><em>Example:</em><br>Suppose we have the following set of training data:</p>
 </blockquote>
@@ -285,8 +284,8 @@
 </tbody>
 </table>
 </div>
-<p>Now we can make a random guess about our $h<em>\theta$ function: $\theta_0=2$ and $\theta_1=2$. The hypothesis function becomes $h</em>\theta(x)=2+2x$.</p>
-<p>So for input of 1 to our hypothesis, y will be 4. This is off by 3. Note that we will be trying out various values of $\theta_0$ and $\theta_1$ to try to find values which provide the best possible “fit” or the most representative “straight line” through the data points mapped on the <em>x-y</em> plane.</p>
+<p>Now we can make a random guess about our $h<em>\θ$ function: $\θ_0=2$ and $\θ_1=2$. The hypothesis function becomes $h</em>\θ(x)=2+2x$.</p>
+<p>So for input of 1 to our hypothesis, y will be 4. This is off by 3. Note that we will be trying out various values of $\θ_0$ and $\θ_1$ to try to find values which provide the best possible “fit” or the most representative “straight line” through the data points mapped on the <em>x-y</em> plane.</p>
 
     </div>
 
