@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-08-31T03:58:10.125Z</updated>
+  <updated>2020-09-01T02:43:35.728Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2020/08/26/Data%20Science%20Methodology%20in%20A%20Nutshell/"/>
     <id>http://yoursite.com/2020/08/26/Data Science Methodology in A Nutshell/</id>
     <published>2020-08-26T12:48:52.525Z</published>
-    <updated>2020-08-31T03:58:10.125Z</updated>
+    <updated>2020-09-01T02:43:35.728Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Data-Science-Methodology-in-A-Nutshell"><a href="#Data-Science-Methodology-in-A-Nutshell" class="headerlink" title="Data Science Methodology in A Nutshell"></a>Data Science Methodology in A Nutshell</h2><p>The Data Science Methodology aims to answer the following 10 questions in this prescribed sequence: </p><h3 id="From-problem-to-approach"><a href="#From-problem-to-approach" class="headerlink" title="From problem to approach:"></a>From problem to approach:</h3><ol><li>What is the problem that you are trying to solve?</li><li>How can you use data to answer the question?</li></ol><h3 id="Working-with-data："><a href="#Working-with-data：" class="headerlink" title="Working with data："></a>Working with data：</h3><ol><li>What data do you need to answer the question?</li><li>Where is the data coming from (identify all sources) and how will you get it?</li><li>Is the data that you collected representative of the problem to be solved?</li><li>What additional work is required to manipulate and work with the data?</li></ol><h3 id="Deriving-the-answer"><a href="#Deriving-the-answer" class="headerlink" title="Deriving the answer:"></a>Deriving the answer:</h3><ol><li>In what way can the data be visualized to get to the answer that is required?</li><li>Does the model used really answer the initial question or does it need to be adjusted?</li><li>Can you put the model into practice?</li><li>Can you get constructive feedback into answering the question?</li></ol><p><img src="https://github.com/zhaodianwen/FigureBed/raw/master/2.jpg" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Data-Science-Methodology-in-A-Nutshell"><a href="#Data-Science-Methodology-in-A-Nutshell" class="headerlink" title="Data Science Methodology in A Nutshell"></a>Data Science Methodology in A Nutshell</h2><p>The Data Science Methodology aims to answer the following 10 questions in this prescribed sequence: </p><h3 id="From-problem-to-approach"><a href="#From-problem-to-approach" class="headerlink" title="From problem to approach:"></a>From problem to approach:</h3><ol><li>What is the problem that you are trying to solve?</li><li>How can you use data to answer the question?</li></ol><h3 id="Working-with-data："><a href="#Working-with-data：" class="headerlink" title="Working with data："></a>Working with data：</h3><ol><li>What data do you need to answer the question?</li><li>Where is the data coming from (identify all sources) and how will you get it?</li><li>Is the data that you collected representative of the problem to be solved?</li><li>What additional work is required to manipulate and work with the data?</li></ol><h3 id="Deriving-the-answer"><a href="#Deriving-the-answer" class="headerlink" title="Deriving the answer:"></a>Deriving the answer:</h3><ol><li>In what way can the data be visualized to get to the answer that is required?</li><li>Does the model used really answer the initial question or does it need to be adjusted?</li><li>Can you put the model into practice?</li><li>Can you get constructive feedback into answering the question?</li></ol><p><img src="https://github.com/zhaodianwen/FigureBed/raw/master/Data%20Science%20Methodology.jpg" alt=""></p>]]></content>
     
     <summary type="html">
     
