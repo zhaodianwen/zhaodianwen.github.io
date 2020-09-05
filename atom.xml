@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-08-04T03:48:39.812Z</updated>
+  <updated>2020-09-01T08:18:47.708Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,78 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DS#2 Data Science Methodologies -- CRISP-DM</title>
+    <link href="http://yoursite.com/2020/09/01/DS#2/"/>
+    <id>http://yoursite.com/2020/09/01/DS#2/</id>
+    <published>2020-09-01T08:15:14.000Z</published>
+    <updated>2020-09-01T08:18:47.708Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Data-Science-Methodologies-—-CRISP-DM"><a href="#Data-Science-Methodologies-—-CRISP-DM" class="headerlink" title="Data Science Methodologies — CRISP-DM"></a>Data Science Methodologies — CRISP-DM</h1><p> In data mining, the Cross Industry Process for Data Mining (CRISP-DM) methodology is widely used.</p><h2 id="What-is-CRISP-DM"><a href="#What-is-CRISP-DM" class="headerlink" title="What is CRISP-DM?"></a>What is CRISP-DM?</h2><p>The CRISP-DM methodology is a process aimed at increasing the use of data mining over a wide variety of business applications and industries. The intent is to take case specific scenarios and general behaviors to make them domain neutral. CRISP-DM is comprised of six steps with an entity that has to implement in order to have a reasonable chance of success. The six steps are shown in the following diagram:</p><p><img src="https://github.com/zhaodianwen/FigureBed/raw/master/crisp_process.jpg" alt=""></p><ol><li><strong>Business Understanding</strong> This stage is the most important because this is where the intention of the project is outlined. Foundational Methodology and CRISP-DM are aligned here. It requires communication and clarity. The difficulty here is that stakeholders have different objectives, biases, and modalities of relating information. They don’t all see the same things or in the same manner. Without clear, concise, and complete perspective of what the project goals are resources will be needlessly expended. </li><li><strong>Data Understanding</strong> Data understanding relies on business understanding. Data is collected at this stage of the process. The understanding of what the business wants and needs will determine what data is collected, from what sources, and by what methods. CRISP-DM combines the stages of Data Requirements, Data Collection, and Data Understanding from the Foundational Methodology outline. </li><li><strong>Data Preparation</strong> Once the data has been collected, it must be transformed into a useable subset unless it is determined that more data is needed. Once a dataset is chosen, it must then be checked for questionable, missing, or ambiguous cases. Data Preparation is common to CRISP-DM and Foundational Methodology. </li><li><strong>Modeling</strong> Once prepared for use, the data must be expressed through whatever appropriate models, give meaningful insights, and hopefully new knowledge. This is the purpose of data mining: to create knowledge information that has meaning and utility. The use of models reveals patterns and structures within the data that provide insight into the features of interest. Models are selected on a portion of the data and adjustments are made if necessary. Model selection is an art and science. Both Foundational Methodology and CRISP-DM are required for the subsequent stage. </li><li><strong>Evaluation</strong> The selected model must be tested. This is usually done by having a pre-selected test, set to run the trained model on. This will allow you to see the effectiveness of the model on a set it sees as new. Results from this are used to determine efficacy of the model and foreshadows its role in the next and final stage. </li><li><strong>Deployment</strong> In the deployment step, the model is used on new data outside of the scope of the dataset and by new stakeholders. The new interactions at this phase might reveal the new variables and needs for the dataset and model. These new challenges could initiate revision of either business needs and actions, or the model and data, or both.</li></ol><p>P.S.</p><p><strong>CRISP-DM is a highly flexible and cyclical model.</strong> Flexibility is required at each step along with communication to keep the project on track. At any of the six stages, it may be necessary to revisit an earlier stage and make changes. The key point of this process is that it’s cyclical; therefore, even at the finish you are having another business understanding encounter to discuss the viability after deployment. The journey continues. </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Data-Science-Methodologies-—-CRISP-DM&quot;&gt;&lt;a href=&quot;#Data-Science-Methodologies-—-CRISP-DM&quot; class=&quot;headerlink&quot; title=&quot;Data Science Metho
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Data_Science_Notes" scheme="http://yoursite.com/tags/Data-Science-Notes/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DS#3 Data Science Methodologies -- CRISP-DM</title>
+    <link href="http://yoursite.com/2020/09/01/DS#3/"/>
+    <id>http://yoursite.com/2020/09/01/DS#3/</id>
+    <published>2020-09-01T08:15:14.000Z</published>
+    <updated>2020-09-01T08:18:11.810Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=" "></a> </h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot; &quot;&gt;&lt;/a&gt; &lt;/h1&gt;
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Data_Science_Notes" scheme="http://yoursite.com/tags/Data-Science-Notes/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DS#2 Data Science Methodologies in A Nutshell</title>
+    <link href="http://yoursite.com/2020/08/29/DS#1/"/>
+    <id>http://yoursite.com/2020/08/29/DS#1/</id>
+    <published>2020-08-29T03:19:30.000Z</published>
+    <updated>2020-09-01T08:24:39.288Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Data-Science-Methodologies-in-A-Nutshell"><a href="#Data-Science-Methodologies-in-A-Nutshell" class="headerlink" title="Data Science Methodologies in A Nutshell"></a>Data Science Methodologies in A Nutshell</h1><p>The Data Science Methodology aims to answer the following 10 questions in this prescribed sequence: </p><h2 id="From-problem-to-approach"><a href="#From-problem-to-approach" class="headerlink" title="From problem to approach:"></a>From problem to approach:</h2><ol><li>What is the problem that you are trying to solve? (Business Understanding)</li><li>How can you use data to answer the question? (Analytic Approach)</li></ol><h2 id="Working-with-data："><a href="#Working-with-data：" class="headerlink" title="Working with data："></a>Working with data：</h2><ol><li>What data do you need to answer the question? (Data Requirements)</li><li>Where is the data coming from (identify all sources) and how will you get it? (Data Collection)</li><li>Is the data that you collected representative of the problem to be solved? (Data Understanding)</li><li>What additional work is required to manipulate and work with the data? (Data Preparation)</li></ol><h2 id="Deriving-the-answer"><a href="#Deriving-the-answer" class="headerlink" title="Deriving the answer:"></a>Deriving the answer:</h2><ol><li>In what way can the data be visualized to get to the answer that is required? (Modeling)</li><li>Does the model used really answer the initial question or does it need to be adjusted? (Evaluation)</li><li>Can you put the model into practice? (Deployment)</li><li>Can you get constructive feedback into answering the question? (Feedback)</li></ol><p><img src="https://github.com/zhaodianwen/FigureBed/raw/master/Data%20Science%20Methodology.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Data-Science-Methodologies-in-A-Nutshell&quot;&gt;&lt;a href=&quot;#Data-Science-Methodologies-in-A-Nutshell&quot; class=&quot;headerlink&quot; title=&quot;Data Science
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Data_Science_Notes" scheme="http://yoursite.com/tags/Data-Science-Notes/"/>
+    
+  </entry>
   
   <entry>
     <title>ML#2 Linear Regression with One Variable</title>
