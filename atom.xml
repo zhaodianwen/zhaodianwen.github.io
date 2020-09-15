@@ -65,11 +65,11 @@
   </entry>
   
   <entry>
-    <title>DS#2 Data Science Methodologies in A Nutshell</title>
+    <title>DS#1 Data Science Methodologies in A Nutshell</title>
     <link href="http://yoursite.com/2020/08/29/DS#1/"/>
     <id>http://yoursite.com/2020/08/29/DS#1/</id>
     <published>2020-08-29T03:19:30.000Z</published>
-    <updated>2020-09-01T08:24:39.288Z</updated>
+    <updated>2020-09-05T02:09:01.262Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Data-Science-Methodologies-in-A-Nutshell"><a href="#Data-Science-Methodologies-in-A-Nutshell" class="headerlink" title="Data Science Methodologies in A Nutshell"></a>Data Science Methodologies in A Nutshell</h1><p>The Data Science Methodology aims to answer the following 10 questions in this prescribed sequence: </p><h2 id="From-problem-to-approach"><a href="#From-problem-to-approach" class="headerlink" title="From problem to approach:"></a>From problem to approach:</h2><ol><li>What is the problem that you are trying to solve? (Business Understanding)</li><li>How can you use data to answer the question? (Analytic Approach)</li></ol><h2 id="Working-with-data："><a href="#Working-with-data：" class="headerlink" title="Working with data："></a>Working with data：</h2><ol><li>What data do you need to answer the question? (Data Requirements)</li><li>Where is the data coming from (identify all sources) and how will you get it? (Data Collection)</li><li>Is the data that you collected representative of the problem to be solved? (Data Understanding)</li><li>What additional work is required to manipulate and work with the data? (Data Preparation)</li></ol><h2 id="Deriving-the-answer"><a href="#Deriving-the-answer" class="headerlink" title="Deriving the answer:"></a>Deriving the answer:</h2><ol><li>In what way can the data be visualized to get to the answer that is required? (Modeling)</li><li>Does the model used really answer the initial question or does it need to be adjusted? (Evaluation)</li><li>Can you put the model into practice? (Deployment)</li><li>Can you get constructive feedback into answering the question? (Feedback)</li></ol><p><img src="https://github.com/zhaodianwen/FigureBed/raw/master/Data%20Science%20Methodology.jpg" alt=""></p>]]></content>
     
